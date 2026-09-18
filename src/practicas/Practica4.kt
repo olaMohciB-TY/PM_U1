@@ -1,28 +1,23 @@
 package practicas
+
 fun main() {
     val calculadora = Calculadora()
 
-    var a : String = "-1"
-    var b : String = "-1"
+    var a : Int
+    var b : Int
 
-    do {
-        println("Escribe el primer número natural para calcular todas las operaciones básicas")
-        a = readln()
-    } while (a.toInt() < 0)
+    println("Escribe el primer número para calcular todas las operaciones básicas")
+    a = readln().toInt()
 
-    do {
-        println("Escribe el segundo número natural para calcular todas las operaciones básicas")
-        b = readln()
-    } while (b.toInt() < 0)
 
-    val primera : Int = a.toInt()
-    val segunda : Int = b.toInt()
+    println("Escribe el segundo número para calcular todas las operaciones básicas")
+    b = readln().toInt()
 
     println("Haciendo todos los cáculos...")
     Thread.sleep(2000L)
 
-    println("La suma es: ${sumar(primera, segunda)}")
-    println("La resta es: ${restar(primera, segunda)}")
-    println("La multiplicación es: ${multiplicar(primera, segunda)}")
-    println("La división es: ${dividir(primera, segunda)}")
+    println("La suma es: ${sumar(a, b)}")
+    println("La resta es: ${restar(a, b)}")
+    println("La multiplicación es: ${multiplicar(a, b)}")
+    println("La división es: ${dividir(a, b)}")
 }
