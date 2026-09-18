@@ -5,15 +5,10 @@ import practicas.extras.Calculadora
 fun main() {
     val calculadora = Calculadora()
 
-    var a : Int
-    var b : Int
-
     println("Escribe el primer número para calcular todas las operaciones básicas")
-    a = readln().toInt()
-
-
+    var a : Int = readln().toInt()
     println("Escribe el segundo número para calcular todas las operaciones básicas")
-    b = readln().toInt()
+    var b : Int = readln().toInt()
 
     println("Haciendo todos los cáculos...")
     Thread.sleep(2000L)
