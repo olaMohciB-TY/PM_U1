@@ -1,4 +1,4 @@
-package extras
+package practicas.extras
 
 class Calculadora {
 

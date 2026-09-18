@@ -1,6 +1,6 @@
 package practicas
 
-import extras.Calculadora
+import practicas.extras.Calculadora
 
 fun main() {
     val calculadora = Calculadora()
