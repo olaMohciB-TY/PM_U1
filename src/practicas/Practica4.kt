@@ -15,11 +15,14 @@ fun main() {
         b = readln()
     } while (b.toInt() < 0)
 
+    val primera : Int = a.toInt()
+    val segunda : Int = b.toInt()
+
     println("Haciendo todos los cáculos...")
     Thread.sleep(2000L)
 
-    println("La suma es: ${sumar(a.toInt(), b.toInt())}")
-    println("La resta es: ${restar(a.toInt(), b.toInt())}")
-    println("La multiplicación es: ${multiplicar(a.toInt(), b.toInt())}")
-    println("La división es: ${dividir(a.toInt(), b.toInt())}")
+    println("La suma es: ${sumar(primera, segunda)}")
+    println("La resta es: ${restar(primera, segunda)}")
+    println("La multiplicación es: ${multiplicar(primera, segunda)}")
+    println("La división es: ${dividir(primera, segunda)}")
 }
