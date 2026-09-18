@@ -1,5 +1,7 @@
 package practicas
 
+import extras.Calculadora
+
 fun main() {
     val calculadora = Calculadora()
 
@@ -16,8 +18,8 @@ fun main() {
     println("Haciendo todos los cáculos...")
     Thread.sleep(2000L)
 
-    println("La suma es: ${sumar(a, b)}")
-    println("La resta es: ${restar(a, b)}")
-    println("La multiplicación es: ${multiplicar(a, b)}")
-    println("La división es: ${dividir(a, b)}")
+    println("La suma es: ${calculadora.sumar(a, b)}")
+    println("La resta es: ${calculadora.restar(a, b)}")
+    println("La multiplicación es: ${calculadora.multiplicar(a, b)}")
+    println("La división es: ${calculadora.dividir(a, b)}")
 }

@@ -1,6 +1,6 @@
-package practicas
+package extras
 
-class Calculadora
+class Calculadora {
 
     // Suma
     fun sumar(a: Int, b: Int): Int {
@@ -21,3 +21,4 @@ class Calculadora
     fun dividir(a: Int, b: Int): Int {
         return a / b
     }
+}
