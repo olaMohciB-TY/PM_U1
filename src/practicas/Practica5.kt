@@ -1,14 +1,14 @@
 package practicas
 
-import practicas.clases.Calculadora
+import practicas.clases.CalculadoraNullable
 
 fun main() {
-    val calculadora = Calculadora()
+    val calculadora = CalculadoraNullable()
 
     println("Escribe el primer número para calcular todas las operaciones básicas")
-    var a : Int = readln().toInt()
+    var a : Int? = readln().toIntOrNull()
     println("Escribe el segundo número para calcular todas las operaciones básicas")
-    var b : Int = readln().toInt()
+    var b : Int? = readln().toIntOrNull()
 
     println("Haciendo todos los cáculos...")
     Thread.sleep(2000L)
