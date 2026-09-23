@@ -9,6 +9,7 @@ fun main() {
         seleccionado = -(seleccionado)
     }
 
+    println("\n ===============\n || RESULTADO ||\n ===============\n")
     for (i in 1..seleccionado) {
         println(i)
     }
